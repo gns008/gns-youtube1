@@ -1,0 +1,169 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(222, 217, 217);
+    z-index: 100;
+}
+
+.header-left{
+   
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu
+{
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 24px;
+}
+
+.youtube-logo
+{
+    height: 20px;
+}
+
+.header-center{
+    display: flex;
+    flex: 1;
+    margin-right: 35px;
+    margin-left: 70px;
+    max-width: 500px;
+    align-items: center;
+}
+
+.searchbar{
+    flex: 1;
+    height: 36.5px;
+    padding-left:10px;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(203, 199, 199);
+    box-shadow: inset 0px 0px 2.5px rgb(6, 6, 6, 0.15);
+    border-radius: 2px;
+    width: 0;
+}
+
+.searchbar::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.Search-button{
+            position: relative;
+            width: 60px;
+            height: 40px;
+            border: solid;
+            border-width: 1px;
+            border-color: rgb(203, 199, 199);
+            border-radius: 2px;
+            background-color: rgb(240, 240, 240);
+            margin-left: -1px;
+            margin-right: 10px;
+            
+}
+.Search-icon{
+     height: 22px;
+    
+
+}
+
+.Search-button,
+.voice-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search-button .tooltip,
+.voice-search .tooltip{
+    position: absolute;
+    bottom: -30px;
+    pointer-events: none;
+}
+
+.tooltip{
+    background-color:rgb(209, 206, 206);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    opacity: 0;
+    color: white;
+}
+
+.Search-button:hover .tooltip,
+.voice-search:hover .tooltip{
+    opacity: 1;
+}
+.voice-search{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            border-width: 1px;
+            border-color: rgb(203, 199, 199);
+            background-color: rgb(250, 247, 247);
+          }
+
+.voice-search-icon{
+    height: 24px;
+}
+
+
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.icon{
+    height: 24px;
+}
+
+.notification{
+    position: relative;
+}
+
+.notification-count{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: rgb(173, 2, 2);
+    color: white;
+    font-family: Roboto;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+
+.icon1{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+
+
+
